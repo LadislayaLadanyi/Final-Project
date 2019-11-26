@@ -1,51 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to Earth</title>
 
-  <title>Welcome to Earth</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="styleshee" type="text/css" href="css/styles.css">
 
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: "World Map.png">;
+  min-height: 90%;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#SA" ).tooltip();
+  } );
+  </script>
 </head>
+
 <body>
-  <div>
-    <h1>The planet</h1>
 
-    <h2>Go on a treasure hunt</h2>
-
-    <!-- image of a map-->
-    <img src="world map.png" width="1500px"> 
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">CONTINENTS</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTRIBUTE</a>
   </div>
+</div>
 
-  <div>
-    <p>
-      I am currently learning to code with <a href="www.codefirstgirls.org.uk">Code First: Girls</a>. Going over everything from how the
-      internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
-      Everyone should learn to code, here are some pretty good reasons why...
-    </p>
-    <ol>
-      <li>HTML is cool</li>
-      <li id="lower">CSS is cooler</li>
-      <li id="lowest">JS is the best</li>
-    </ol>
+<!-- Header with image -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="CONTINENTS">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:20px">Continents</h1>
+
+  <img src="World Map.png" style="margin-bottom:30px" width="1000px">
+
+
+<button id="SA" title="ABCDE" type="button" style="position:absolute;top:75%;left:33%; font-size:20px;" class="btn btn-dark">South America</button>
+<button id="NA" type="button" style="position:absolute;top:48%;left:25%; font-size:20px;" class="btn btn-dark">North America</button>
+<button id="E" type="button"  style="position:absolute;top:46%;left:50%; font-size:20px;" class="btn btn-dark">Europe</button>
+<button id="A" type="button"  style="position:absolute;top:50%;left:65%; font-size:20px;" class="btn btn-dark">Asia</button>
+<button id="O" type="button"  style="position:absolute;top:82%;left:74%; font-size:20px;" class="btn btn-dark">Oceania</button>
+<button id="O" type="button"  style="position:absolute;top:63%;left:50%; font-size:20px;" class="btn btn-dark">Africa</button>
+
+
+
+
+
+</div>
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+
+
+
+
+
+<!-- Menu Container -->
+<h1> Mapsters</h1>
+
+<style>
+h1 {
+font-size: 200px;
+text-align:center;
+}
+</style>
+
+
+  <style>
+p {
+margin-top:10px;
+margin-bottom: 10px;
+}
+  </style>
+
+</div>
+</header>
+
+<center><img src="https://media.giphy.com/media/cR9cLG8VNa3m0/giphy.gif" alt="what image shows" align="top" height="150" width="200"></center>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Welcome to <strong>Mapsters</strong>! An interactive tool for youngsters curious about the world, Mapsters is your go-to teaching tool for basic,
+  accessible information and countries and continents around the world.</p>
+
+  <div2>
+    <p>Developed by:</p>
+  </div2>
+
+  <div3>
+      <ul>
+        <li>Ladislaya Ladanyi</li>
+        <li>Yolanda Lam</li>
+        <li>India Davies</li>
+      </ul>
+    </div3>
+
+</div>
+
+
+<!-- Image of US!!!! -->
+
+
+<!-- Image of location/map -->
+
+<div>
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;">
+
+</div>
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contribute</h1>
+    <p class="w3-xxlarge">Tell us about the <strong>treasures</strong>  you've found</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Continent" required name="Place"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Description" required name="Description"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
   </div>
+</div>
 
-  <div class="contrast">
-    <h2><em>What do you need to create a website?</em></h2>
-    <ul>
-      <li>A computer</li>
-      <li>A text editor</li>
-      <li>A web browser</li>
-      <li>Some HTML, CSS and JS files</li>
-    </ul>
-  </div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Have Fun!</p>
+</footer>
 
-  <br>
 
-  <p>
-    Follow my progress on <a href="www.github.com">github</a>
-  </p>
+
 </body>
 </html>
